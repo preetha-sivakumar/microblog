@@ -21,4 +21,7 @@ class Config:
     MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')
     ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
     REDIS_URL = os.environ.get('REDIS_URL') or 'redis://'
-    POSTS_PER_PAGE = 25
+    POSTS_PER_PAGE = 5
+
+
+    #testing commit 
